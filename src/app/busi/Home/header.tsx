@@ -5,7 +5,7 @@ const Header = () => {
     const [keyword, setKeyword] = useState('');
 
     useEffect(() => {
-        const url = `http://localhost:3000/search/default`;
+        const url = `http://zhanrongshuai.com/back/search/default`;
         axios({
             url,
             method: 'get',

@@ -12,7 +12,7 @@ module.exports = {
     devServer: {
         host: '127.0.0.1',
         hot: true,
-        port: 8088,
+        port: 9000,
         inline: true,
     },
     mode: 'development',
